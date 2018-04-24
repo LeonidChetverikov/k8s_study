@@ -3,7 +3,8 @@
 System requirements:
 1. Ubuntu 16.04 x64 kernel 4.13.0-38-generic
 2. git clone https://github.com/kubernetes-incubator/kubespray.git
-   2.1  kubespray dependecies:
+   
+   #2.1  kubespray dependecies:
 
 Ansible v2.4 (or newer)
 Jinja 2.9 (or newer)
