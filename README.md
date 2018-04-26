@@ -14,4 +14,12 @@ if in log are problems with RBAC please use:
 rbac-setup.yaml - for account prometheus
 drbac-setup.yaml - for account default
 
-5. 
+5. According to https://codefresh.io/docs/docs/deploy-to-kubernetes/access-codefresh-docker-registry-from-kubernetes/
+create access to docker registry for default usage
+
+6. According to https://godoc.org/github.com/prometheus/client_golang/prometheus
+ created golang file is in attachment.
+
+7. 
+
+8. Docker image build file
