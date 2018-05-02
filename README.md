@@ -20,6 +20,15 @@ create access to docker registry for default usage
 6. According to https://godoc.org/github.com/prometheus/client_golang/prometheus
  created golang file is in attachment.
 
-7. 
+7. Docker image build file: for in cluster with file https://github.com/kubernetes/client-go/tree/master/examples/in-cluster-client-configuration
+                            for out cluster https://github.com/kubernetes/client-go/tree/master/examples/out-of-cluster-client-configuration
 
-8. Docker image build file
+8. Take an attention on path in file Docker file in insluster configuration.
+
+for out of cluster simply: cd out-of-cluster-client-configuration
+                           go build -o app .
+                           ./app
+
+9. Manage previosly configured prometheus  to scrap metrics.
+
+
